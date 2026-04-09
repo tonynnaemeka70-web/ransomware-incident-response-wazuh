@@ -84,7 +84,7 @@ Phase | MITRE Tactic | Technique ID | Description
 
 Incident Response Workflow
 
-Identification
+1. Identification
  
  Suspicious PowerShell execution detected
  
@@ -92,25 +92,25 @@ Identification
  
  Incident classified as Ransomware
 
-Containment
+2. Containment
 
  Infected endpoint isolated from the network (manual simulation)
  
  Log collection maintained for forensic evidence
 
- Eradication
+3.  Eradication
 
  Malicious artifacts identified and removed (simulated)
  
  Compromised credentials reset
 
- Recovery
+ 4. Recovery
  
  Endpoint marked for reimaging
  
  System restoration from clean backup (simulated)
 
- Post-Incident Review
+ 5. Post-Incident Review
  
  Lessons learned documented
  
